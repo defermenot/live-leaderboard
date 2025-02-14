@@ -15,10 +15,10 @@ services:
   redisinsight:
     image: redislabs/redisinsight:latest
     ports:
-      - "8001:8001"
+      - "5540:5540"
     depends_on:
       redis:
-        condition: service_healthy<D-s>
+        condition: service_healthy
     volumes:
       - redisinsight_data:/db
 
