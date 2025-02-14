@@ -86,10 +86,6 @@ A implementação deve utilizar Redis Sorted Sets para gerenciar o ranking, apro
 ## Como Executar
 
 ### Pré-requisitos
-- Docker
-- Docker Compose
-
-### Configuração
 Para executar este projeto, você precisará ter instalado:
 - Docker
 - Docker Compose
